@@ -1,3 +1,19 @@
 #!/usr/bin/env python3
 
-print("Hello world")
+import colors as c
+
+print(c.green + '117' + c.cyan 'FOR LIFE BRA!!' + c.reset)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
