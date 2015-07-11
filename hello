@@ -2,13 +2,14 @@
 
 import colors as c
 
-print(c.green + '117' + c.cyan 'FOR LIFE BRA!!' + c.reset)
+print(c.green + '117' + c.cyan + 'FOR LIFE BRA!!' + c.reset)
 
-
-
-
-
-
+print(c.green + '''
+Hello!! This is the Halo quiz!
+If you complete this quiz and get all the questions right you are a ture believer!
+If you get all the questions wrong, you SUUUUUUUUUUUUUUUUUUUUUUUCK!!!!!!!!!!!!!!!!!
+''')
+print('1. What is the purpose of Master Chief in the HALO saga?')
 
 
 
