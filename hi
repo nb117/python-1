@@ -5,7 +5,7 @@ import colors as c
 c.clear_screen()
 print(c.yellow + "Hi, what's your name?" + c.reset)
 name = input('-->' + c.orange)
-grint(c.red + 'Well' + c.magenta + name + c.red + 'Nice to meet you,' + name + '!')
+print(c.red + 'Well' + c.magenta + name + c.red + 'Nice to meet you,' + name + '!')
 
 
 
