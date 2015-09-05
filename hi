@@ -2,14 +2,14 @@
 
 import colors as c
 
-
+print(c.clear)
 print(c.yellow + "Hi, what's your name?" + c.reset)
 name = input('-->' + c.orange)
 print(c.red + 'Well' + c.magenta + name + c.red + 'Nice to meet you,' + name + '!')
 print(c.cyan + 'Now' + c.green + name + c.blue + 'tell me a number, any number.')
 number = input('-->' + c.blue)
 print(c.red + 'SIKE! DAT THE WRONG NUMBA!!!')
-print(c.magenta + 'OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOHHHHHH!!!!!!!!!!!!!!')
+print(c.magenta + 'WOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOHHHHHH!!!!!!!!!!!!!!')
 
 
 
