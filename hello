@@ -2,14 +2,41 @@
 
 import colors as c
 
+print(c.clear)
 print(c.green + 'MASTER CHIEF FOR LIVE BRA!!!')
 
-print(c.cyan + 'Hello and to whoever the heck is reading this! If you play Halo, than you can do this quiz!')
+print(c.cyan + 'Hello to whoever the heck is reading this! If you play Halo, than you can do this quiz!')
 print(c.green + 'If not, then your gonna fail! :)')
 
+print(c.green + 'question 1')
+print(c.cyan + 'whats master chiefs role in the halo saga?')
+answer = input('-->' + c.green)
+print(c.cyan + 'the answer was, "to protect the halo rings and stop the covenant."')
 
+print(c.cyan + 'question 2')
+print(c.green + 'why did the forunners make the halo rings?')
+answer = input('-->' + c.green)
+print(c.green + 'the answer was, "to destroy the flood."')
 
+print(c.cyan + 'question 3')
+print(c.green + 'who are the leaders of covenant?')
+answer = input('-->' + c.cyan)
+print(c.cyan + 'the answer was, "the prophets."')
 
+print(c.green + 'question 4')
+print(c.cyan + 'what are the promethian knights made of?')
+answer = input('-->' + c.green)
+print(c.green + 'the answer was, "human souls and robotic parts."')
 
+print(c.green + 'question 5')
+print(c.cyan + 'why was cortana starting to malfunction and glitch in halo 4?')
+answer = input('-->' + c.cyan)
+print(c.cyan + 'the answer was, "because she was out dated and needed to be fixed."')
 
+print(c.cyan + 'question 6')
+print(c.green + 'what happend at the end of halo 4?')
+answer = input('-->' + c.cyan)
+print('the answer was, "master cheif stopped the didact and saved the earth, but cortana passed away."')
 
+print(c.green + 'congrats! you just finished the demo of the halo quiz!')
+print(c.cyan + 'the true one will come out in 4 months.')

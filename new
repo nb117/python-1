@@ -1,0 +1,10 @@
+#!/usr/bin/env python3
+
+import colors as c
+
+print(c.red + 'WAZAAAAAAAAAAAAAP!')
+print(c.blue + 'today is the day  where you started here and began your new day here at skilstak! hope you like it!!')
+print(c.orange + 'see you soon!')
+print(c.yellow + 'and don't forget to hack obamas house!')
+
+
