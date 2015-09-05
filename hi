@@ -10,8 +10,9 @@ print(c.cyan + 'Now' + c.green + name + c.blue + 'tell me a number, any number.'
 number = input('-->' + c.blue)
 print(c.red + 'SIKE! DAT THE WRONG NUMBA!!!')
 print(c.magenta + 'WOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOHHHHHH!!!!!!!!!!!!!!')
-
-
+print(c.green + 'now im going to ask you, what is your personal info is.')
+sentence = input('-->' + c.blue)
+print(c.red + 'congrants! your personal info has been shared with the world. good bye :)')
 
 
 
