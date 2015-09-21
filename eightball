@@ -3,8 +3,17 @@
 print("""
 welcome to the magic eightball
 enter you question below bru:
-""")
+""" + c.reset)
 
 answers = ["yes.", "no.", "maybe.", "not really.", "totaly."]
 
-input("--> ")
+import random
+
+try:
+
+while True:
+    question = input('> ')
+    answer = random.choice(answers)
+    print(answer)
+except KeyboardInterrupt:
+    exit()
